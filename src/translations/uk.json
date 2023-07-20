@@ -1,0 +1,14 @@
+{
+  "humidity": "Вологість",
+  "windspeed": "Швидкість вітру",
+  "kmPerHour": "Км/г",
+  "searchPlaceholder": "Введіть своє місцезнаходження",
+  "weatherDescriptions": {
+    "Clear": "Ясно",
+    "Clouds": "Хмарно",
+    "Rain": "Дощ",
+    "Thunderstorm": "Гроза",
+    "Snow": "Сніжно",
+    "Mist": "Туманно"
+  }
+}

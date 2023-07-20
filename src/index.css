@@ -11,6 +11,36 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: #06283D;
+  background: #a6daf4;
   color: black;
+}
+
+body.clouds {
+  transition: 1s;
+  background-color: #b9d3dc;
+}
+
+body.clear {
+  transition: 1s;
+  background-color: #F2F27A;
+}
+
+body.rain {
+  transition: 1s;
+  background-color: #84919d;
+}
+
+body.snow {
+  transition: 1s;
+  background-color: #f0f3f9;
+}
+
+body.mist {
+  transition: 1s;
+  background-color: #cdd8d9;
+}
+
+body.error {
+  transition: 1s;
+  background-color: #a6daf4;
 }

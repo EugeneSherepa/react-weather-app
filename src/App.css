@@ -14,11 +14,42 @@ body{
   background: #06283D;
 }
 
+.language-container {
+  display: flex;
+  justify-content: flex-end;
+  width: 380px;
+  gap: 10px;
+}
+
+.lan-box {
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+}
+
+.lan-box:hover {
+  opacity: 0.7;
+  transition: 0.3s;
+}
+
+.eng {
+  background-image: url(./images/uk.webp);
+  background-size: cover;
+  background-position: center;
+}
+
+.ukr {
+  background-image: url(./images/ukr.png);
+  background-size: cover;
+  background-position: center;
+}
+
 .container{
   position: relative;
   width: 400px;
   background: #fff;
   padding: 28px 32px;
+  margin-top: 15px;
   overflow: hidden;
   border-radius: 18px;
   font-family: 'Roboto', sans-serif;

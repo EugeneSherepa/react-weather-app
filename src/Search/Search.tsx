@@ -3,13 +3,18 @@ import React, { useState } from 'react';
 type Props = {
   setCity: (value: string) => void,
   setContainerHeight:(calue: number) => void,
+  t:(value: string) => string,
 };
 
-export const Search: React.FC<Props> = ({ setCity, setContainerHeight }) => {
+export const Search: React.FC<Props> = ({ 
+  setCity, 
+  setContainerHeight, 
+  t,
+}) => {
   const [inputValue, setInputValue] = useState('');
 
   const handleInputChange = (event: React.ChangeEvent<HTMLInputElement>) => {
-    setInputValue(event.target.value.trim());
+    setInputValue(event.target.value);
   }
 
   const handleFormSubmit = (event: React.ChangeEvent<HTMLFormElement>) => {
@@ -27,7 +32,7 @@ export const Search: React.FC<Props> = ({ setCity, setContainerHeight }) => {
         <i className="fa-solid fa-location-dot" />
         <input 
           type="text" 
-          placeholder="Enter your location" 
+          placeholder={t('searchPlaceholder')}
           value={inputValue}
           onChange={(event) => handleInputChange(event)}
         />

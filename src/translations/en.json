@@ -1,0 +1,14 @@
+{
+  "humidity": "Humidity",
+  "windspeed": "Wind Speed",
+  "kmPerHour": "Km/h",
+  "searchPlaceholder": "Enter your location",
+  "weatherDescriptions": {
+    "Clear": "Clear sky",
+    "Clouds": "Cloudy",
+    "Rain": "Rainy",
+    "Thunderstorm": "Thunderstorm",
+    "Snow": "Snowy",
+    "Mist": "Misty"
+  }
+}
